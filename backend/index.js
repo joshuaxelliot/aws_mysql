@@ -4,7 +4,7 @@ import mysql from "mysql2/promise";
 import bcrypt from "bcrypt";
 
 const app = express();
-const port = 3002;
+const port = 3003;
 
 // Middleware
 app.use(bodyParser.json());
